@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+        body {
+  font-family: Arial, sans-serif;
+}
+
+.horizontal .horizontalNav {
+  border: 1px solid black;
+  height: 50px;
+  padding: 10px;
+  width: 285px;
+  padding-right: 0px;
+}
+
+.horizontal ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #d3d3d3;
+}
+
+.horizontal li {
+  float: left;
+}
+
+.horizontal li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-left: 1px solid blue;
+}
+
+.horizontal li a:hover {
+  background-color: #111;
+}
+.horizontal .home-2 {
+  background-color: #808080;
+}
+
+.horizontal a:not(.home-2) {
+  background-color: #d3d3d3;
+  color: blue;
+}
+
+.verticalNav {
+  border: 1px solid black;
+  width: 280px;
+  height: 220px;
+}
+
+.verticalNav li {
+  padding-top: 10px;
+  padding-left: 10px;
+  list-style-type: none;
+  background-color: #add9e6;
+  padding-bottom: 10px;
+  /* border: 1px solid black; */
+}
+
+.verticalNav nav {
+  width: 280px;
+}
+
+.verticalNav li:last-child {
+  padding-bottom: 22px;
+}
+
+.verticalNav a {
+  text-decoration: none;
+}
+
+.verticalNav li:first-child {
+  background-color: #fea500;
+}
+
+.verticalNav ul {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+    </style>
+    <title>Task 2</title>
+  </head>
+  <body>
+    <div class="vertical">
+      <h2>Vertical Navigation Bar</h2>
+      <div class="verticalNav">
+        <nav>
+          <ul>
+            <li class="firstLink"><a class="home-2" href="#">Home</a></li>
+
+            <li><a href="https://www.java.com/en/">Java</a></li>
+            
+            <li>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+                >HTML</a
+              >
+            </li>
+
+            <li><a href="https://en.wikipedia.org/wiki/CSS">CSS</a></li>
+
+            <li><a href="https://getbootstrap.com/">Bootstrap</a></li>
+          </ul>
+      </div>
+    </div>
+    <div class="horizontal">
+      <h2>Horizontal Navigation Bar</h2>
+      <div class="horizontalNav">
+        <nav>
+          <ul>
+            <li class="firstLink"><a class="home-2" href="#">Home</a></li>
+
+            <li><a href="https://www.java.com/en/">Java</a></li>
+            <li>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+                >HTML</a
+              >
+            </li>
+            <li><a href="https://en.wikipedia.org/wiki/CSS">CSS</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <style>
+        .box {
+  width: 40%;
+  /* border: 1px solid black; */
+  height: 500px;
+  margin: auto;
+  margin-top: 100px;
+  /* padding: 10px; */
+}
+
+label {
+  font-weight: bold;
+}
+
+.imgBox {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.imgAvatar {
+  width: 25%;
+  height: 20%;
+  border-radius: 50%;
+}
+
+.formDiv {
+  margin-top: 20px;
+}
+
+input:not(.remember) {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.buttonLogin {
+  padding: 0;
+  width: 100%;
+  height: 30px;
+  box-sizing: border-box;
+  background-color: #4cb050;
+  color: white;
+  border: none;
+}
+
+.lastBox {
+  border: 1px solid #eeefef;
+  width: 100%;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1f1f1;
+  box-sizing: border-box;
+}
+
+.lastBox button {
+  margin-top: 5px;
+  margin-left: 2px;
+  background-color: #f44136;
+  color: white;
+  border: none;
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.lastBox p {
+  margin-right: 20px;
+}
+
+.forgetPass {
+  color: black;
+}
+    </style>
+    <title>Task 6</title>
+  </head>
+  <body></body>
+  <div class="box">
+    <div class="imgBox">
+      <img
+        class="imgAvatar"
+        src="https://www.w3schools.com/howto/img_avatar2.png"
+        alt="Girl Avatar"
+      />
+    </div>
+    <div class="formDiv">
+      <form>
+        <label for="username">Username</label>
+        <br />
+        <input type="text" name="username" placeholder="Enter Username" />
+        <br />
+        <label for="Password">Password</label>
+        <br />
+        <input type="password" name="Password" placeholder="Enter Password" />
+        <button class="buttonLogin">Login</button>
+        <br />
+        <br />
+        <input class="remember" name="remember" type="checkbox" />
+        <lable for="remember">Remember me</lable>
+        <div class="lastBox">
+          <button>Cancel</button>
+          <p>Forgot <a class="forgetPass" href="#">password?</a></p>
+        </div>
+      </form>
+    </div>
+  </div>
+</html>

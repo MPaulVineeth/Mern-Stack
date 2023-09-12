@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Task 5</title>
+  </head>
+  <body>
+    <h1
+      style="
+        color: blue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      "
+    >
+      Registration Form
+    </h1>
+
+    <form style="display: flex; flex-direction: column; align-items: center">
+      <table border="1px solid black" cellspacing="0" width="700px">
+        <tr>
+          <th width="180px">
+            <label for="firstName">First Name</label>
+          </th>
+          <td>
+            <input
+              type="text"
+              name="firstName"
+              style="box-sizing: border-box; padding: 0; width: 100%"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <th><label for="lastName">Last Name</label></th>
+          <td>
+            <input
+              type="text"
+              name="lastName"
+              style="box-sizing: border-box; padding: 0; width: 100%"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <th><label for="email">Email</label></th>
+          <td>
+            <input
+              type="email"
+              name="email"
+              style="box-sizing: border-box; padding: 0; width: 100%"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <th><label for="password">Password</label></th>
+          <td>
+            <input
+              type="password"
+              name="password"
+              style="box-sizing: border-box; padding: 0; width: 100%"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <th><label for="reEnterPassword">Re-enter Password</label></th>
+          <td>
+            <input
+              type="password"
+              name="reEnterPassword"
+              style="box-sizing: border-box; padding: 0; width: 100%"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <th><label>Gender:</label></th>
+          <td>
+            <table cellspacing="0" cellpadding="0" width="100%">
+              <tr>
+                <td
+                  style="border-bottom: 1px solid black; padding: 0; margin: 0"
+                >
+                  <input type="Radio" name="Gender" value="Male" />
+                  <label for="Gender">Male</label>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="Radio" name="Gender" value="Female" />
+                  <label for="Gender">Female</label>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <tr>
+          <th><label for="age">Age:</label></th>
+          <td>
+            <input
+              type="number"
+              name="age"
+              style="box-sizing: border-box; padding: 0; width: 100%"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <th><label for="phoneNumber">Phone Number</label></th>
+          <td>
+            <input
+              type="number"
+              name="phoneNumber"
+              style="box-sizing: border-box; padding: 0; width: 100%"
+            /><br />
+          </td>
+        </tr>
+
+        <tr>
+          <th><label for="address">Address</label></th>
+          <td>
+            <textarea
+              name="address"
+              rows="6"
+              style="box-sizing: border-box; padding: 1; width: 100%"
+            ></textarea>
+          </td>
+        </tr>
+
+        <tr>
+          <th><label for="state">State</label></th>
+          <td>
+            <input
+              type="text"
+              name="state"
+              style="box-sizing: border-box; padding: 0; width: 100%"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <th><label for="Country">Country</label></th>
+          <td>
+            <select name="country" class="Country">
+              <option value="" disabled selected>Choose your country</option>
+              <option>India</option>
+              <option>United States</option>
+              <option>United Kingdom</option>
+              <option>Canada</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <th><label for="Lang">Languages Known</label></th>
+          <td>
+            <input type="checkbox" name="language" value="English" />
+
+            <lable for="language"> English</lable>
+            <input type="checkbox" name="language" value="Kannada" />
+
+            <lable for="language"> Kannada</lable>
+            <input type="checkbox" name="language" value="Hindi" />
+
+            <lable for="language"> Hindi</lable>
+            <input type="checkbox" name="language" value="Telugu" />
+            <lable for="language"> Telugu</lable>
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2">
+            <input type="checkbox" />
+            <lable>Hereby I declare all the given details are true </lable>
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2" style="text-align: right">
+            Log in to
+            <a href="https://ethnus.com" style="color: blue">Ethnus</a> website
+          </td>
+        </tr>
+      </table>
+      <br />
+      <button style="align-items: center">Submit</button>
+    </form>
+  </body>
+</html>

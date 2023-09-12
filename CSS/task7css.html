@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+      input:not(.gender) {
+  padding: 0;
+  margin: 0px;
+  width: 100%;
+  border-radius: 0;
+  border: 0.5px solid black;
+  box-sizing: border-box;
+}
+
+table {
+  margin: 20px;
+
+  width: 300px;
+  height: 400px;
+}
+
+td,
+th {
+  color: white;
+}
+
+th {
+  text-align: left;
+  padding-right: 0px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div-box {
+  background-color: #75203f;
+
+  width: 500px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.register_button {
+  width: 100%;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 17px;
+  margin-top: -20px;
+  border-radius: 5px;
+  border: none;
+}
+
+body {
+  background-color: #a22b55;
+  zoom: 130%;
+}
+
+.gender {
+  margin: 0;
+}
+
+.select_lang {
+  background-color: #dddddd;
+}
+
+::placeholder {
+  padding-left: 5px;
+}
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <div class="main-div-box"> -->
+    <div class="div-box">
+      <form>
+        <table cellspacing="0" cellpadding="0">
+          <tr>
+            <td><lable for="name">Name:</lable></td>
+            <td><input type="text" name="name" placeholder="your name" /></td>
+          </tr>
+
+          <tr>
+            <td><lable for="email">Email:</lable></td>
+            <td>
+              <input type="email" name="email" placeholder="your email" />
+            </td>
+          </tr>
+
+          <tr>
+            <td><lable for="password">Password:</lable></td>
+            <td><input type="password" name="password" /></td>
+          </tr>
+
+          <tr>
+            <td><lable for="number">Phone Number:</lable></td>
+            <td><input type="number" name="number" /></td>
+          </tr>
+
+          <tr>
+            <td><label for="gender">Gender:</label></td>
+            <td class="gender">
+              <label for="gender">Male:</label>
+              <input type="radio" class="gender" name="gender" />
+              <label for="gender">Female:</label>
+              <input type="radio" class="gender" name="gender" />
+              <label for="otders">Others:</label>
+              <input type="radio" class="gender" name="gender" />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="language">Language:</label></td>
+            <td>
+              <select class="select_lang" name="language">
+                <option value="" disabled selected>Select language</option>
+                <option class="select_language">Telugu</option>
+                <option class="select_language">Hindi</option>
+                <option class="select_language">English</option>
+                <option class="select_language">Tamil</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><lable for="zip_code">Zip Code:</lable></td>
+            <td><input type="number" name="zip_code" /></td>
+          </tr>
+          <tr>
+            <td><lable for="about_section">About:</lable></td>
+            <td>
+              <textarea
+                name="address"
+                rows="2"
+                placeholder="Write about yourself..."
+                style="box-sizing: border-box; padding: 1; width: 100%"
+              ></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <button class="register_button">Register</button>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+    <!-- </div> -->
+  </body>
+</html>

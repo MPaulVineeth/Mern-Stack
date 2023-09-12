@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        * {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  height: 60vh;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-container {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+.main-container a {
+  display: block;
+  transition: 1s;
+  transition-property: transform;
+}
+
+.first {
+  background-color: #04a96d;
+}
+
+.second {
+  background-color: #2196f3;
+}
+
+.third {
+  background-color: #f44236;
+}
+
+.fourth {
+  background-color: #555555;
+}
+
+.main-container:hover {
+  width: 60px;
+}
+
+.para-container {
+  display: inline-block;
+  margin-top: 92px;
+  margin-left: 60px;
+}
+
+h2 {
+  padding-bottom: 15px;
+}
+    </style>
+    <title>Task 4</title>
+  </head>
+  <body>
+    <div class="container">
+      <a class="main-container first" href="#"></a>
+
+      <a class="main-container second" href="https://www.java.com/en/"></a>
+
+      <a
+        class="main-container third"
+        href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+      ></a>
+
+      <a class="main-container fourth" href="https://en.wikipedia.org/wiki/CSS"></a>
+    </div>
+
+    <div class="para-container">
+      <h2>Hoverable Sidenav Buttons</h2>
+      <p>Hover over the buttons in the left side navigation to open them.</p>
+    </div>
+  </body>
+</html>
