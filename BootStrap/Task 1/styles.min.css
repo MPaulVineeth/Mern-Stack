@@ -1,0 +1,26 @@
+body {
+  background-color: #f8f9fb;
+}
+.heading-1 {
+  text-align: center;
+  background-color: #0dcaf0;
+}
+#navcol-1 {
+  background-color: #a19fa5;
+}
+.nav-link,
+.side-box p {
+  color: #fff;
+}
+.side-box {
+  background-color: #636162;
+}
+li {
+  padding-right: 10px;
+}
+.nav-item {
+  padding-right: 30px;
+}
+.nav-item:first-child {
+  padding-left: 20px;
+}
