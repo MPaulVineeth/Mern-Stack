@@ -1,0 +1,37 @@
+.card {
+  margin: 15px;
+  border: solid #f3f3f3;
+  border-left: 1px solid #f3f3f3 !important;
+  height: 80vh;
+}
+a {
+  margin: 10px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.overlay {
+  position: absolute;
+  top: 85%;
+  left: 5%;
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .heading-tag.overlay {
+    font-size: small;
+  }
+  .card-body {
+    font-size: 15px;
+  }
+  a {
+    font-size: 26px;
+  }
+}
+.hr-container {
+  width: 100%;
+  padding: 0;
+}
+.card-text,
+.link-div {
+  padding: 0 20px;
+  font-size: 18px;
+}
