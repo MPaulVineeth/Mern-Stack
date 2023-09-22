@@ -1,0 +1,117 @@
+.bs-icon {
+  --bs-icon-size: 0.75rem;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--bs-icon-size);
+  width: calc(var(--bs-icon-size) * 2);
+  height: calc(var(--bs-icon-size) * 2);
+  color: var(--bs-primary);
+}
+.bs-icon-xs {
+  --bs-icon-size: 1rem;
+  width: calc(var(--bs-icon-size) * 1.5);
+  height: calc(var(--bs-icon-size) * 1.5);
+}
+.bs-icon-sm {
+  --bs-icon-size: 1rem;
+}
+.bs-icon-md {
+  --bs-icon-size: 1.5rem;
+}
+.bs-icon-lg {
+  --bs-icon-size: 2rem;
+}
+.bs-icon-xl {
+  --bs-icon-size: 2.5rem;
+}
+.bs-icon.bs-icon-primary {
+  color: var(--bs-white);
+  background: var(--bs-primary);
+}
+.bs-icon.bs-icon-primary-light {
+  color: var(--bs-primary);
+  background: rgba(var(--bs-primary-rgb), 0.2);
+}
+.bs-icon.bs-icon-semi-white {
+  color: var(--bs-primary);
+  background: rgba(255, 255, 255, 0.5);
+}
+.bs-icon.bs-icon-rounded {
+  border-radius: 0.5rem;
+}
+.bs-icon.bs-icon-circle {
+  border-radius: 50%;
+}
+.img-1-dvi {
+  max-width: 50px !important;
+}
+.div-second-p {
+  margin-top: -10px;
+}
+.box-1,
+.box-2,
+.box-3,
+.box-4 {
+  max-height: 100px;
+}
+.btn-transparent {
+  background-color: transparent;
+}
+.img-div {
+  text-align: center !important;
+  padding: 40px;
+  background-size: cover;
+  height: 100vh;
+  box-sizing: border-box;
+}
+.jumbotron.to-be-transparent {
+  background-color: rgba(255, 255, 255, 0) !important;
+  border: none !important;
+  max-width: 880px;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.last-div {
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+  margin: 0 !important;
+  max-width: 100% !important;
+  padding: 0;
+}
+.item.div-1-3 {
+  background-color: #030f27;
+  color: #fdbe33;
+  height: 160px;
+}
+.item.div-2 {
+  background-color: #fdbe33;
+  color: #030f27;
+  height: 160px;
+}
+.last-div-p {
+  margin-bottom: 0;
+}
+.img-div::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../../assets/img/img-1.jpg") 0 0 / cover no-repeat;
+  filter: brightness(50%);
+}
+.nav-div-1 {
+  border-bottom: none;
+}
+.ml-auto.btn-div-1 {
+  max-width: 140px;
+}
+.nav-div-1.dec-m-l {
+  margin-left: 0 !important;
+}

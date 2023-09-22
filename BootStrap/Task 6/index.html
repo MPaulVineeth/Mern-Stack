@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>Task 6</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/styles.min.css" />
+  </head>
+
+  <body>
+    <div
+      class="position-relative m-5 w-25 ps-5 pe-5 pt-2 pb-2"
+      style="background: #f7f7f7"
+    >
+      <form
+        class="bootstrap-form-with-validation needs-validation"
+        novalidate=""
+      >
+        <div class="form-group mb-3 needs-validation">
+          <label class="form-label form-label" for="text-input">Name</label
+          ><input
+            class="form-control form-control"
+            type="text"
+            id="text-input"
+            name="text-input"
+            required=""
+          />
+          <div class="invalid-feedback"><span>Name is required</span></div>
+        </div>
+        <div class="form-group mb-3">
+          <label class="form-label form-label" for="email-input">Email</label
+          ><input
+            class="form-control form-control"
+            type="email"
+            id="email-input"
+            name="email-input"
+            required=""
+          />
+          <div class="invalid-feedback"><span>Email is required</span></div>
+        </div>
+        <div class="form-group mb-3">
+          <label
+            class="form-label form-label form-label"
+            for="password-input"
+            required=""
+            >Password</label
+          ><input
+            class="form-control form-control"
+            type="password"
+            id="password-input"
+            name="password-input"
+            required=""
+          />
+          <div class="invalid-feedback"><span>Password is required</span></div>
+        </div>
+        <div class="form-group mb-3">
+          <label class="form-label form-label" for="form-select">Hobbies</label
+          ><select class="form-select chosen" required>
+            <option value selected disabled></option>
+            <option value="OutdoorGames">Outdoor Games</option>
+            <option value="learning">Learning</option>
+            <option value="drawing">Drawing</option>
+            <option value="dance">Dance</option>
+            <option value="acting">Acting</option>
+            <option value="photgraphy">Photography</option>
+            <option value="cooking">Cooking</option>
+          </select>
+        </div>
+        <div class="form-group mb-3">
+          <button
+            class="btn btn-primary w-100"
+            type="submit"
+            style="background: #e23247; border: none"
+          >
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.10/js/select2.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
+  </body>
+</html>
